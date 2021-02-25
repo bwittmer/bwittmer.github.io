@@ -1,0 +1,11 @@
+.nav-bar {
+    color: #114340;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #e1c47c;
+}
+
+.nav-bar a:hover {
+    color: #bd6951;
+}
