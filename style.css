@@ -1,10 +1,11 @@
-.container-fluid {
+#header {
     padding-right: 0px;
     padding-left: 0px;
+    background-color: #114340;
+    width: inherit;
 }
 
 .navbar {
-    background-color: #114340;
     width: inherit;
 }
 
