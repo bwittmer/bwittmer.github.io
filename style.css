@@ -5,14 +5,25 @@
 
 .navbar {
     background-color: #114340;
-    align-items: center;
-    justify-content: center;
     width: inherit;
 }
 
-.navbar a {
+.navbar ul {
+    list-style: none; 
+    display: table;
+}
+
+.navbar li {
+    display: table-cell; 
+    padding: 5% 8%;
+}
+
+.navbar li a {
     text-decoration: none;
     color: #e1c47c;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15% 10%;
     /**
     * color: #fde6ab
     * color: #426b79
@@ -24,23 +35,8 @@
     color: #bd6951;
 }
 
-ul { 
-    list-style: none; 
-    display: table;
-}
 
-li { 
-    display: table-cell; 
-    padding: 5% 8%;
-}
-
-a {
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 15% 10%;
-}
-
-a:after {    
+.navbar li a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -52,12 +48,18 @@ a:after {
     transition: width 0.5s ease 0s, left 0.5s ease 0s;
     width: 0;
 }
-a:hover:after { 
+
+.navbar li a:hover:after { 
     width: 100%; 
     left: 0; 
 }
+
 @media screen and (max-height: 300px) {
     ul {
         margin-top: 40px;
     }
+}
+
+.navbar a img {
+    size: 0.25%;
 }
