@@ -1,3 +1,8 @@
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .navbar {
     background-color: #114340;
     align-items: center;
