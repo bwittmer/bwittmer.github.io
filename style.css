@@ -40,6 +40,11 @@
     letter-spacing: 0.15em;
     display: inline-block;
     position: relative;
+    /**
+    * color: 
+    * color: #426b79
+    *
+    */
 }
 
 #otherPages li a:hover {
@@ -62,10 +67,16 @@
   width: 100%; 
   left: 0; 
 }
-@media screen and (max-height: 300px) {
-	ul {
-		margin-top: 40px;
-	}
+@media only screen and (min-height: 500px) {
+    #headerConten #otherPages {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #headerContent #otherPages {
+        visibility: hidden;
+    }
 }
 
 #headerContent i{
@@ -79,17 +90,16 @@
 #myBtn {
     display: block; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background: none;
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
     color: #fde6ab; /* Text color */
+    background: none;
     cursor: pointer; /* Add a mouse pointer on hover */
   }
   
   #myBtn:hover {
-    color: #114340
+    color: #114340; /* Add a dark-grey background on hover */
   }
-  /*#426b79*/
