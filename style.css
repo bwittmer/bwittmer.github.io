@@ -67,13 +67,13 @@
   width: 100%; 
   left: 0; 
 }
-@media only screen and (min-height: 500px) {
+@media only screen and (min-width: 800px) {
     #headerConten #otherPages {
         visibility: visible;
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 799px) {
     #headerContent #otherPages {
         visibility: hidden;
     }
