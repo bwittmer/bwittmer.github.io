@@ -71,7 +71,7 @@
 
 #main {
     width: inherit;
-    height: 575px;
+    height: 700px;
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
@@ -119,16 +119,17 @@
     display: flex;
     padding-top: 3%; 
     text-align: center;
+    padding-left:40%;
+    padding-right: 40%;
 }
 
 #aboutMeButton a {
     color:#e1c47c;
     font-size: 1.5em;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 25px;
     background-color: #bd6951;
     text-decoration-line: none;
-    width: 45px;
 }
 
 /* #426b79 */
