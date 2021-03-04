@@ -6,31 +6,30 @@
 }
 
 #headerContent {
-    width: inherit;
+    width: 100%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 0%;
     padding-bottom: 0%;    
 }
 
-#headerContent #otherPages {
+#otherPages{
     width: inherit;
-}
-
-#headerContent #otherPages{
+    height: inherit;
     list-style: none; 
     display: table;
-    padding-left: 0%;
-    width: inherit;
-    padding-top: 3%;  
+    padding-top: 0%;  
     padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 1%; 
     text-align: center;
+    margin-bottom: 0%;
 }
 
 #otherPages li {
     display: table-cell; 
-    padding: 0% 0%;
+    padding: 2% 1%;
+    margin: 0%;
 }
 
 #otherPages li a {
@@ -40,6 +39,7 @@
     letter-spacing: 0.15em;
     display: inline-block;
     position: relative;
+    margin:inherit;
     /**
     * color: 
     * color: #426b79
@@ -63,6 +63,7 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 #otherPages li a:hover:after { 
   width: 100%; 
   left: 0; 
@@ -70,7 +71,7 @@
 
 #main {
     width: inherit;
-    height: inherit;
+    height: 575px;
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
@@ -81,20 +82,17 @@
     url("images/homePage.png");
 }
 
-#main{
-    width: inherit;
-    height: 600px;
-}
-
-#name p {
+#name {
     color:#bd6951;
     font-size: 2em;
     letter-spacing: 0.1em;
-    align-self: center;
+    display: flex;
+    margin: 0%;
+    justify-content: center;  
 }
 
 #footer {
-    position:absolute;
+    position:relative;
     bottom: 0px;
     left: 0px;
     right: 0px;
