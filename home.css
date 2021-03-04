@@ -60,3 +60,8 @@
     background-color: #bd6951;
     text-decoration-line: none;
 }
+
+#aboutMeButton a:hover {
+    background-color: #426b79;
+    color: #114340;
+}
