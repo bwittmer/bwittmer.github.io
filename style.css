@@ -85,8 +85,8 @@
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.3)
+        rgba(30, 49, 36, 0.7),
+        rgba(30, 49, 36, 0.7)
     ),
     /* bottom, image */
     url("images/homePage.png");
