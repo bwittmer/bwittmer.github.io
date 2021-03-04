@@ -81,16 +81,21 @@
 
 #main {
     width: inherit;
-    height: 100%;
-    background-color: black;
+    height: inherit;
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(0, 0, 0, 0.9), 
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
     ),
     /* bottom, image */
     url("images/homePage.png");
+}
+
+#main #text {
+    width: inherit;
+    height: 600px;
+    color: white;
 }
 
 #footer {
