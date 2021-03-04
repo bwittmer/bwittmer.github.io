@@ -67,17 +67,6 @@
   width: 100%; 
   left: 0; 
 }
-@media only screen and (min-width: 800px) {
-    #headerConten #otherPages {
-        visibility: visible;
-    }
-}
-
-@media only screen and (max-width: 799px) {
-    #headerContent #otherPages {
-        visibility: hidden;
-    }
-}
 
 #main {
     width: inherit;
@@ -92,10 +81,16 @@
     url("images/homePage.png");
 }
 
-#main #text {
+#main{
     width: inherit;
     height: 600px;
-    color: white;
+}
+
+#name p {
+    color:#bd6951;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    align-self: center;
 }
 
 #footer {
@@ -109,7 +104,8 @@
     width: inherit;
     color:#e1c47c;
     text-align: center;
-    padding: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
@@ -130,3 +126,18 @@
   #myBtn:hover {
     color: #114340; /* Add a dark-grey background on hover */
   }
+
+  /*
+  }
+@media only screen and (min-width: 800px) {
+    #headerConten #otherPages {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    #headerContent #otherPages {
+        visibility: hidden;
+    }
+}
+*/
