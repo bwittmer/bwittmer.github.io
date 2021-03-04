@@ -1,8 +1,32 @@
 #main {
+    width: inherit;
+    height: 700px;
     background: 
-    /* top, transparent red, faked with gradient */ 
     linear-gradient(
         rgba(30, 49, 36, 0.7),
         rgba(30, 49, 36, 0.7)
     )
+}
+
+#title {
+    width: inherit;
+    display: flex;
+    margin-bottom: -1%; 
+    text-align: center;
+}
+
+#title p {
+    font-size: 2em;
+    color: #e1c47c;
+    position: relative'
+}
+
+#title p:before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 10px;
+    width   : 50%;
+    border-bottom:1px solid #bd6951;
 }
