@@ -20,13 +20,3 @@
     color: #e1c47c;
     position: relative'
 }
-
-#title p:before {
-    content : "";
-    position: absolute;
-    left    : 0;
-    bottom  : 0;
-    height  : 10px;
-    width   : 50%;
-    border-bottom:1px solid #bd6951;
-}
