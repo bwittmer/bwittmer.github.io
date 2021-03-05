@@ -20,3 +20,11 @@
     color: #e1c47c;
     position: relative'
 }
+
+#phoneTag {
+    font-size: 30px;
+    background-color: #426b79;
+    color: white;
+    width: 55px;
+    border-radius: 60px;;
+}

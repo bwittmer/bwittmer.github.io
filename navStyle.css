@@ -84,36 +84,6 @@
     padding-bottom: 2%;
 }
 
-
-/* Code from W3schools.com */
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border-radius: 30px; /* Remove borders */
-    font-size: medium;
-    outline: none; /* Remove outline */
-    color: #114340; /* Text color */
-    background: none;
-    cursor: pointer; /* Add a mouse pointer on hover */
-    background-color:#e1c47c;
-    border-style: none;
-    width: 50px;
-    height: 70px;
-  }
-
-  #myBtn p {
-      font-size: 40px;
-      margin-bottom: 0px;
-  }
-  
-  #myBtn:hover {
-    color: #e1c47c; /* Add a dark-grey background on hover */
-    background-color: #114340;
-  }
-
   /*
   }
 @media only screen and (min-width: 800px) {
