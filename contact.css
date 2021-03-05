@@ -9,9 +9,10 @@
 }
 
 #title {
+    padding-top: 4%;
     width: inherit;
     display: flex;
-    margin-bottom: -1%; 
+    margin-bottom: 3%; 
     text-align: center;
 }
 
@@ -21,10 +22,77 @@
     position: relative'
 }
 
+#methods {
+    padding-top: 20%;
+}
+
+#location {
+    margin-bottom: 3%;
+}
+
+#locationTag {
+    font-size: 30px;
+    background-color: #426b79;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    display: inline;
+    vertical-align: middle;
+}
+
+#locationText {
+    color: white;
+    width: 75%;
+    font-size: 1.2em;
+    display: inline;
+    vertical-align: middle;
+}
+
+#email {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#emailTag {
+    font-size: 30px;
+    background-color: #426b79;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 60px;
+    display: inline;
+    vertical-align: middle;
+}
+
+#emailText {
+    color: white;
+    width: 75%;
+    font-size: 1.2em;
+    display: inline;
+    vertical-align: middle;
+}
+
+#phone {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
 #phoneTag {
     font-size: 30px;
     background-color: #426b79;
     color: white;
     width: 55px;
-    border-radius: 60px;;
+    height: 55px;
+    border-radius: 60px;
+    display: inline;
+    vertical-align: middle;
+}
+
+#phoneText {
+    color: white;
+    width: 75%;
+    font-size: 1.2em;
+    display: inline;
+    vertical-align: middle;
 }
