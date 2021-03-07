@@ -1,12 +1,58 @@
 #main {
     width: inherit;
-    height: 700px;
+    height: 100%;
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
         rgba(30, 49, 36, 0.7),
         rgba(30, 49, 36, 0.7)
-    ),
-    /* bottom, image */
-    url("images/homePage.png");
+    )
+}
+
+#title {
+    padding-top: 4%;
+    width: inherit;
+    display: flex;
+    margin-bottom: 3%; 
+    text-align: center;
+}
+
+#title p {
+    font-size: 2.5em;
+    color: #e1c47c;
+    position: relative;
+}
+
+#about {
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+    justify-content: center;
+}
+
+#about #welcomeImage {
+    border-radius: 50px;
+    width: 75%;
+    height: 75%;
+}
+
+#techStack {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#techStackTitle {
+    font-size: 1.75em;
+    color: #e1c47c;
+    position: relative;
+}
+
+#techStackItems {
+    list-style: none;
+    font-size: 1.25em;
+    color: white;
+}
+
+#techStackItems li {
+    padding-top: 1%;
 }
