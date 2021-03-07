@@ -32,7 +32,7 @@
 
 #about #welcomeImage {
     border-radius: 50px;
-    width: 75%;
+    width: 100%;
     height: 75%;
 }
 
@@ -95,6 +95,7 @@
 
 #items {
     border-radius: 10px;
+    width: 100%;
 }
 
 #itemsControllerText {
@@ -109,6 +110,7 @@
 
 #reservations {
     border-radius: 10px;
+    width: 100%;
 }
 
 #itemsReservationsText {
@@ -138,6 +140,7 @@
 
 #messages {
     border-radius: 10px;
+    width: 100%;
 }
 
 #messagesText {
@@ -179,4 +182,5 @@
 
 #testsPic {
     border-radius: 10px;
+    width: 100%;
 }
