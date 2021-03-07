@@ -37,7 +37,7 @@
 }
 
 #techStack {
-    padding-top: 10%;
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -55,4 +55,128 @@
 
 #techStackItems li {
     padding-top: 1%;
+}
+
+#myContributions {
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+#myContributionsTitle{
+    font-size: 1.75em;
+    color: #e1c47c;
+    position: relative;
+}
+
+#myContributionsText{
+    font-size: 1.25em;
+    color: white;
+}
+
+#refactoredCode {
+    padding-top: 5%;
+}
+
+#refactoredCodeTitle {
+    font-size: 1.5em;
+    color: #e1c47c;
+    position: relative;
+}
+
+#refactoredCodeText {
+    font-size: 1.1em;
+    color: white;
+}
+
+#myItemsController {
+    padding-top: 5%;
+}
+
+#items {
+    border-radius: 10px;
+}
+
+#itemsControllerText {
+    text-align: left;
+    color: white;
+    font-size: 1.1em;
+}
+
+#myReservationsController {
+    padding-top: 5%;
+}
+
+#reservations {
+    border-radius: 10px;
+}
+
+#itemsReservationsText {
+    text-align: right;
+    color: white;
+    font-size: 1.1em;
+}
+
+#newCode {
+    padding-top: 5%;
+}
+
+#newCodeTitle {
+    font-size: 1.5em;
+    color: #e1c47c;
+    position: relative;
+}
+
+#newCodeText {
+    font-size: 1.1em;
+    color: white;
+}
+
+#messagesController {
+    padding-top: 5%;
+}
+
+#messages {
+    border-radius: 10px;
+}
+
+#messagesText {
+    text-align: left;
+    color: white;
+    font-size: 1.1em;
+}
+
+#mySQL {
+    padding-top: 5%;
+}
+
+#mySQLTitle {
+    font-size: 1.5em;
+    color: #e1c47c;
+    position: relative;
+}
+
+#mySQLText {
+    font-size: 1.1em;
+    color: white;
+}
+
+#tests {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#testsTitle {
+    font-size: 1.5em;
+    color: #e1c47c;
+    position: relative;
+}
+
+#testsText {
+    font-size: 1.1em;
+    color: white;
+}
+
+#testsPic {
+    border-radius: 10px;
 }
